@@ -5,4 +5,149 @@
     background-color: #222;
     border-radius: 8px;
   }
+
+  .signup {
+    color: #aaa;
+  }
+
+.signup.a {
+    color: #FFF;
+    text-decoration-line: underline;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-box {
+    background-color: #181818;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .login-box h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 0px;
+    inline-size: 100%;
+    background: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .divider {
+    text-align: center;
+    border-top: 1px solid #333;
+    line-height: 0.1em;
+    margin: 10px 0;
+  }
+  
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-login button i {
+    margin-right: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  
+  .google,
+  .facebook {
+    background-color: #000;
+    border: #e2e2e2 solid 1px;
+    color: #fff;
+  }
+
+  .apple {
+    background-color: #000;
+    border: #aaa solid 1px;
+    color: #fff;
+  }
+  
+  .apple i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .signup {
+    text-align: center;
+    font-size: 14px;
+  }
+  .signup a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 500px) {
+    .login-box {
+      padding: 20px;
+    }
+  
+    input,
+    button {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #aaa;
+    margin: 20px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #444;
+  }
+  
+  .divider:not(:empty)::before {
+    margin-right: 10px;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 10px;
+  }
+  
+  .forgotpassword {
+    color: #fff;
+    text-decoration:none;
+  }
   
