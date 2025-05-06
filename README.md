@@ -24,12 +24,23 @@ Projeto desenvolvido apenas para fins de **aprendizado**. Não possui relação 
 
 ## 🧱 Estrutura do Projeto
 
-- `index.html` — Tela de login
-- `home.html` — Tela inicial (home)
+- `assests/` 
+  - `capas` — Imagens como logo, ícones e outras imagens estáticas.
+  - `icons` —  Armazenamento dos ícones SVG ou de outros formatos, especialmente se você usar muitos ícones.
+- `components/` — Cada componente (como cabeçalho, rodapé, sidebar, etc.) tem sua própria pasta com os arquivos HTML, JS e CSS, o que facilita a reutilização de componentes em várias páginas.
+  - `footer`
+  - `header`
+  - `profile-menu`
+  - `sidebar`
 - `css/`
-  - `global.css` — Estilos globais e variáveis
-  - `login.css` — Estilo da tela de login
-  - `home.css` — Estilo da tela inicial
+  - `global.css` — Define estilos globais que são aplicados a todas as páginas (tipografia, cores, etc.).
+  - `login.css` — Arquivos específicos para o estilo da página de login
+  - `home.css` — Arquivos específicos para o estilo da página inicial
+- `js/`
+  - `auth.js` 
+  - `home.js`
+  - `player.js`
+  - `profile.js`
 
 ---
 
