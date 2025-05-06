@@ -22,6 +22,15 @@ Este é um projeto pessoal desenvolvido com o objetivo de praticar:
 
 Projeto desenvolvido apenas para fins de **aprendizado**. Não possui relação com o Spotify.
 
+## 🧱 Estrutura do Projeto
+
+- `index.html` — Tela de login
+- `home.html` — Tela inicial (home)
+- `css/`
+  - `global.css` — Estilos globais e variáveis
+  - `login.css` — Estilo da tela de login
+  - `home.css` — Estilo da tela inicial
+
 ---
 
 Feito com 💚 por [Fernanda Matos](https://github.com/ferlimatos)
