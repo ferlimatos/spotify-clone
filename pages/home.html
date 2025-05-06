@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Spotify Clone - Home</title>
-  <link rel="stylesheet" href="css/global.css" />
-  <link rel="stylesheet" href="css/home.css" />
-  <script src="js/home.js"></script>
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+  <script src="/js/home.js"></script>
 </head>
 <body>
 
@@ -34,15 +34,29 @@
 
   <div class="page-container">
     <!-- Navegação lateral -->
-    <aside class="sidebar">
-      <nav>
-        <ul>
-          <li><i class="fas fa-home"></i> Início</li>
-          <li><i class="fas fa-search"></i> Buscar</li>
-          <li><i class="fas fa-book"></i> Biblioteca</li>
-        </ul>
-      </nav>
-    </aside>
+    <aside class="left-container">
+        <h2>Minha Biblioteca</h2>
+        <div class="library">
+          <!-- Exemplo de música ou álbum salvo -->
+          <div class="item">
+            <img src="/assets/capas/TRAUMA_IPREVAIL.jpg" alt="Capa do Álbum" class="cover">
+            <div class="item-info">
+              <p class="title">TRAUMA</p>
+              <p class="user">I Prevail</p>
+            </div>
+          </div>
+      
+          <!-- Outro item -->
+          <div class="item">
+            <img src="/assets/capas/STRATEGY_TWICE.jpg" alt="STRATEGY" class="cover">
+            <div class="item-info">
+              <p class="title">STRATEGY</p>
+              <p class="user">TWICE</p>
+            </div>
+          </div>
+          <!-- Adicione mais itens conforme necessário -->
+        </div>
+      </aside>
 
     <!-- Conteúdo principal -->
     <main class="main-content">
@@ -123,10 +137,10 @@
   <!-- Player fixo -->
 <footer class="music-player">
     <div class="player-left">
-      <img src="assets/images/album1.jpg" alt="Capa" />
+      <img src="assets/capas/TRAUMA_IPREVAIL.jpg" alt="Capa" />
       <div class="song-info">
-        <strong>Nome da Música</strong>
-        <span>Nome do Artista</span>
+        <strong>TRAUMA</strong>
+        <span>I Prevail</span>
       </div>
     </div>
   
